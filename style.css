@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding-top: 559px;
+    text-align: center;
+}
+
+#profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    z-index: 9;
+    height: 800px;
+    color: midnightblue;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: beige;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.indiv {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 45px;
+}
+
+.line {
+    height: 6px;
+    background-color: cornsilk;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px;
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.links:hover {
+    background-color: burlywood
+}
